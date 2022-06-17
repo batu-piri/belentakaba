@@ -1,0 +1,14 @@
+body::before {
+    content: '';
+    display: block;
+    height: 85px;
+}
+
+.opacityTM {
+    opacity: .85;
+}
+
+.zindexTM {
+    z-index: 2500;
+}
+
