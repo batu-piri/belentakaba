@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="tm">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Belent Akaba HK</title>
+</head>
+<body>
+
+    <!-- Sprites --> 
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top opacityTM">
+        <div class="container-xxl">
+            <a href="#" class="navbar-brand">
+              <img src="images/logo.png" width="50" alt="">
+              Belent Akaba HK</a>
+
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">                    
+                    <li class="nav-item">
+                        <a href="#aboutustm" class="nav-link">Biz Hakda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Hyzmatlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#advantages" class="nav-link">Üstünligimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certificates" class="nav-link">Sertifikatlarymyz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#partners" class="nav-link">Hyzmatdaşlarymyz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Sorag-Jogap</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contacts" class="nav-link">Habarlaş!</a>
+                  </li>
+                </ul>                
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-globe2 text-primary"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">
+                      <img src="images/flags/turkmen.png" class="w-25 me-1" alt="turkmenFlag"> TKM
+                    </a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <img src="images/flags/russianSvg.jpg" class="w-25 me-2" alt="turkmenFlag">RUS</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <img src="images/flags/usa svg.svg" class="w-25 me-2" alt="turkmenFlag">ENG</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>  
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 py-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between"> <!-- sm-e cenli d-flex sondan sonra flex DAL! -->
+                <div>
+                    <h1 class="text-warning">Gelejegiň dünýäsine biz bilen gadam basyň!</h1>
+                    <p class="lead my-4">Çagalar baglaryndan başlap ähli bilim ojaklaryny <span>ÝOKARY HILLI</span> mebeller bilen üpjün edýän kärhanamyz Siziň hyzmatyňyzda!</p>
+                    <button class="btn btn-primary btn-lg">Harytlarymyz...</button>
+                </div>                
+                <img class="img-fluid w-50 d-none d-sm-block" src="images/Black grand opening greeting instagram post.png" alt="">                
+            </div> 
+        </div> <!-- container -->
+    </section>
+
+    <!-- Carousel -->
+
+    <div id="slidertm" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#slidertm" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#slidertm" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#slidertm" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/suratlar/guzel2liManzaragokgyzylJPG.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ergonomiýa</h5>
+              <p>Adam saglygyny we fizionomiýasyna görä dizaýn edilen önüm!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/suratlar/guzel2lipianoCoffeeJPG.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Her mekanda...</h5>
+              <p>Ýokary hilli bu önümi ähli mekanlarda we ýerlerde ulanyp bilersiňiz!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/suratlar/guzel2lipianoJPG.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Gelejek üçin...</h5>
+              <p>Bu önümler has gowy gelejek we çagalarymyz üçin...</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About us -->
+
+    <section id="aboutustm" class="p-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="images/suratlar/sergiJPG.jpg" alt="toys" class="w-100 img-thumbnail">
+          </div>
+          <div class="col-md p-5">
+            <h2>Biz hakda!</h2>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius ab aspernatur numquam quos, vero expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, maxime!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus id sunt sequi illum fugit. Voluptate magnam officiis ad odio sed repudiandae. Iusto aut autem non? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatum quis cumque. Suscipit, illum sint.</p>
+            <a href="#" class="btn btn-primary mt-3">
+              <i class="bi bi-chevron-right"></i> Giňişleýin!
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Another text -->
+
+    <section id="ourhistory" class="p-5 bg-info">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Biz hakda!</h2>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius ab aspernatur numquam quos, vero expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, maxime!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus id sunt sequi illum fugit. Voluptate magnam officiis ad odio sed repudiandae. Iusto aut autem non? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatum quis cumque. Suscipit, illum sint.</p>
+            <a href="#" class="btn btn-primary mt-3">
+              <i class="bi bi-chevron-right"></i> Giňişleýin!
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="images/suratlar/sergiJPG.jpg" alt="soon" class="w-100 img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cards -->
+
+    <section id="services" class="p-5 bg-secondary">
+        <div class="container">
+          <div class="title">
+            <h2 class="text-center mb-4 text-light">Biziň hyzmatlarymyz we önümlerimiz!</h2>
+          </div>
+            <div class="row g-4 text-center">
+                <div class="col-md">
+                    <div class="card">
+                        <img src="images/suratlar/sergi2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Giňişleýin!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="images/suratlar/partaly.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Giňişleýin!</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="images/suratlar/sergiJPG.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Giňişleýin!</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+
+    <section id="advantages" class="p-5">
+        <div class="container">
+          <div class="title">
+            <h2 class="text-center text-primary mb-4">Artykmaçlyklarymyz!</h2>
+          </div>
+            <div class="row text-center g-5">
+                <div class="col-md">
+                    <div class="card bg-primary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-alarm-fill text-warning"></i>
+                            </div>
+                            <h4 class="card-title mb-3">
+                                Wagtyňyzy tygşytlaň!
+                            </h4>
+                            <p class="card-text mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas dicta, magnam distinctio quod voluptatem!
+                            </p>
+                            <a class="btn btn-warning" href="#">Giňişleýin!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-bag-heart-fill text-warning"></i>
+                            </div>
+                            <h4 class="card-title mb-3">
+                              Hilli hyzmatdaşlyk!
+                            </h4>
+                            <p class="card-text mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas dicta, magnam distinctio quod voluptatem!
+                            </p>
+                            <a class="btn btn-warning" href="#">Giňişleýin!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-hand-thumbs-up text-warning"></i>
+                            </div>
+                            <h4 class="card-title mb-3">
+                               Şatlyk paýlaýarys!
+                            </h4>
+                            <p class="card-text mb-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas dicta, magnam distinctio quod voluptatem!
+                            </p>
+                            <a class="btn btn-warning" href="#">Giňişleýin!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- certificates -->
+    <section id="certificates" class="p-5 bg-warning">
+        <div class="container">
+          <div class="col-12">
+              <h2 class="text-center mb-4">Sertifikatlarymyz - Kepilimiz!</h2>
+          </div>
+            <div class="row g-5">
+                <div class="col-lg">
+                    <a href="#">
+                        <img src="images/cert/sert1.jpg" alt="" class="w-100 img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="#">
+                        <img src="images/cert/sert2.jpg" alt="" class="w-100 img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="#">
+                        <img src="images/cert/sert3.jpg" alt="" class="w-100 img-thumbnail">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bile işleşýänlerimiz! -->
+
+    <section class="p-5 bg-light" id="partners">
+      <div class="container">
+        <h2 class="text-center">Bile Işleşýänlerimiz.</h2>
+        <p class="lead text-center mb-5">Çagalar baglaryndan başlap ähli bilim edaralaryny ýokary hilli mebeller we tehnologiýalar bilen üpjün edýäris we toplumlaýyn çözgütler getirýäris!</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+             <div class="card bg-light">
+               <div class="card-body text-center">
+                 <img class="rounded-circle" src="images/okuw merkezleri/gujurly.png" alt="">
+                 <h3 class="card-title my-3">"Gujurly"</h3>
+                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro quam reprehenderit voluptatum sit minima.</p>
+                 <a class="h4" href="#">
+                   <i class="bi bi-twitter m-1"></i>
+                  </a>
+                 <a class="h4" href="#">
+                   <i class="bi bi-facebook mx-1"></i>
+                  </a>
+                 <a class="h4" href="#">
+                   <i class="bi bi-instagram mx-1"></i>
+                  </a>
+                 <a class="h4" href="#">
+                   <i class="bi bi-linkedin ms-1"></i>
+                  </a>
+
+                </div>
+             </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img class="rounded-circle" src="images/okuw merkezleri/pak nesil.jpg" alt="">
+                <h3 class="card-title my-3">"Päk nesil"</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro quam reprehenderit voluptatum sit minima.</p>
+                <a class="h4" href="#">
+                  <i class="bi bi-twitter m-1"></i>
+                 </a>
+                <a class="h4" href="#">
+                  <i class="bi bi-facebook mx-1"></i>
+                 </a>
+                <a class="h4" href="#">
+                  <i class="bi bi-instagram mx-1"></i>
+                 </a>
+                <a class="h4" href="#">
+                  <i class="bi bi-linkedin ms-1"></i>
+                 </a>
+
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img class="rounded-circle" src="images/okuw merkezleri/dana.jpg" alt="">
+              <h3 class="card-title my-3">"Dana"</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro quam reprehenderit voluptatum sit minima.</p>
+              <a class="h4" href="#">
+                <i class="bi bi-twitter m-1"></i>
+               </a>
+              <a class="h4" href="#">
+                <i class="bi bi-facebook mx-1"></i>
+               </a>
+              <a class="h4" href="#">
+                <i class="bi bi-instagram mx-1"></i>
+               </a>
+              <a class="h4" href="#">
+                <i class="bi bi-linkedin ms-1"></i>
+               </a>
+
+             </div>
+          </div>
+       </div>
+
+       <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img class="rounded-circle" src="images/okuw merkezleri/zehin yoly.png" alt="">
+            <h3 class="card-title my-3">"Zehin ýoly"</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro quam reprehenderit voluptatum sit minima.</p>
+            <a class="h4" href="#">
+              <i class="bi bi-twitter m-1"></i>
+             </a>
+            <a class="h4" href="#">
+              <i class="bi bi-facebook mx-1"></i>
+             </a>
+            <a class="h4" href="#">
+              <i class="bi bi-instagram mx-1"></i>
+             </a>
+            <a class="h4" href="#">
+              <i class="bi bi-linkedin ms-1"></i>
+             </a>
+
+           </div>
+        </div>
+     </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accordion -->
+
+    <section id="questions" class="p-5 bg-info">
+        <div class="container">
+          <h2 class="text-center text-light mb-5">Köp soralýan soraglar we jogaplary!</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      "Belent Akaba" hususy kärhanasy barada gürrüň beräýseňiz?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quo voluptate optio quos sed laboriosam fuga quam saepe, porro provident blanditiis omnis nihil necessitatibus quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione distinctio est aut mollitia fugiat sequi a quo, atque nostrum. Neque labore minus iusto est culpa!</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                     Esasy iş ugurlaryňyz dogrusynda bir kelam?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsum delectus esse architecto quisquam veniam atque ea beatae maxime soluta odio, magnam repellat, ipsa inventore repudiandae. Explicabo distinctio quaerat cupiditate nisi! In labore nobis debitis aliquid aspernatur maiores. Animi debitis nulla tenetur. Animi odio, distinctio velit illo sequi enim mollitia.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     Önümçiligiň ýanyndan dünýä belli brendleriň oýunjaklarynyň hem söwdasyny edýändigiňizi aýtdyňyz?!
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo, fugit qui blanditiis fuga modi rerum itaque eius laudantium ut illum, voluptatum ipsum consequatur ab quasi veritatis excepturi nam enim? Ipsa debitis ab at. Maiores amet impedit consequuntur veniam vitae, totam autem fuga soluta voluptas nobis aliquid ipsum omnis quia!</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Geçirýän sosial çäreleriňiz barasynda-da aýdyp berseňiz?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi cumque consequuntur aut qui reprehenderit necessitatibus dicta amet, accusantium perferendis odit sint eos provident possimus, tenetur cum repellendus? Nam fugiat id doloremque praesentium distinctio cupiditate animi nesciunt, dignissimos consequuntur illo quia, at vitae. Repellat id esse quas ipsam error reiciendis?</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Anyk hem-de doly salgyňyzy berip we habarlaşmak üçin belgileriňizi berip bilersiňizmi?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsum minus eveniet totam beatae dolorum culpa ea magnam reiciendis accusantium, eos dolore quis unde illum earum harum sunt odit quia natus repudiandae impedit vero explicabo? Fuga, soluta. Animi, praesentium doloremque non assumenda nulla corrupti quo, repudiandae repellat, tenetur consequuntur ratione.</div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- Contacts  -->
+
+    <section id="contacts" class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <h2 class="text-center mb-4">Habarlaşmak üçin!</h2>
+          <div class="col-md">
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Esasy salgymyz: </span> Aşgabat şäheri, Ýylgaý Durdyýew Köçesiniň 50-nji jaýy, "Gyrat" bina 2-nji gat.
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Telefon belgilerimiz: </span>+99363-715158, +99312-754532.
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">E-mail salgylarymyz: </span>info@belentakaba.com, trading@belentakaba.com, marketing@belentakaba.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Instagram sahypamyz: </span> @chagalardunyasi
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md">
+            <a href="#">
+              <img src="images/salgy.png" class="w-100 img-thumbnail" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+      <!-- Footer 2 -->
+    <div class="bg-dark text-light position-relative">
+        <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-4 offset-1">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of whats new and exciting from us.</p>
+                    <div class="d-flex w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>© 2022 <span class="lead fw-bold text-primary">"Belent Akaba" HK.</span>   All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+
+            </footer>
+          </div>
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+    </div>
+
+
+     <!-- positioned element -->
+
+  <div class="container">
+    <div class="row">
+      <div class="position-relative">
+        <div class="position-fixed d-flex flex-column top-50 end-0 zindexTM">
+          <a class="mb-3" href="#"><i class="bi bi-instagram text-danger h2"></i></a>
+          <a class="mb-3" href=""><i class="bi bi-facebook text-primary h2"></i></a>
+          <a class="mb-3" href=""><i class="bi bi-linkedin text-primary h2"></i></a>
+          <a class="mb-3" href=""><i class="bi bi-twitter text-primary h2"></i></a>
+          <a class="mb-3" href=""><i class="bi bi-tiktok h2"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="holder.js"></script>
+</body>
+</html>
